@@ -4,7 +4,7 @@ import mongoose from "mongoose"
 
 
 const connect = ()=>{
-    mongoose.connect("mongodb://127.0.0.1:27017/e-commercePractice")
+    mongoose.connect("mongodb+srv://mahesh:mahesh@cluster0.8aap4sx.mongodb.net/e-com")
     .then(()=>console.log("connected to db"))
     .catch((e)=>console.log(e))
     
